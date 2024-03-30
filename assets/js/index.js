@@ -30,5 +30,5 @@ function showDialog(dialogID) {
 }
 
 function closeDialog(dialogID) {
-  return dialogID.closeModal();
+  return dialogID.close();
 }
