@@ -54,13 +54,16 @@
         </div>
       </section>
     </main>
-    <dialog id="dialogContact" class="bg-zinc-800 text-zinc-50 w-fit rounded-md px-4 py-2 ">
-      <h1 class="text-xl">Escolha um meio de contato.</h1>
+    <dialog id="dialogContact" class="bg-zinc-800 text-zinc-50 absolute inset-12 w-fit rounded-md px-4 py-2 ">
+      <div class="inline-flex ">
+        <h1 class="text-xl flex-1">Escolha um meio de contato.</h1>
+        <i id="btnCloseContactDialog" class="ph ph-x"></i>
+      </div>
       <p class="text-zinc-400">Selecione um meio de contato para que possa entrar em contato com nossa equipe.</p>
       <button class="inline-flex bg-zinc-50 text-zinc-900 rounded-md h-10 px-4 py-2">
         Instagram
       </button>
-      <button class="inline-flex bg-zinc-50 text-zinc-900 rounded-md h-10 px-4 py-2">
+      <button id="dialogContactWPPBtn" class="inline-flex bg-zinc-50 text-zinc-900 rounded-md h-10 px-4 py-2">
         WhatsApp
       </button>
     </dialog>
