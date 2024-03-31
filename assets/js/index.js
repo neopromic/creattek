@@ -6,7 +6,6 @@ const btnCloseContactDialog = document.querySelector("#btnCloseContactDialog");
 
 btnContact.addEventListener("click", () => {
   showDialog(dialogContact);
-  // Redirect("https://w.app/creattek");
 });
 
 dialogContactWPPBtn.addEventListener("click", () => {
