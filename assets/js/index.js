@@ -10,7 +10,7 @@ btnContact.addEventListener("click", () => {
 });
 
 dialogContactWPPBtn.addEventListener("click", () => {
-  return Redirect("https://w.app/creatttek");
+  return Redirect("https://w.app/creattek");
 });
 
 btnCloseContactDialog.addEventListener("click", () => {
