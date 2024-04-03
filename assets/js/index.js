@@ -1,23 +1,21 @@
-import { toRedirect } from "./toRedirect.js";
+import { toRedirect } from "./toRedirect.ts";
 
 const btnContact = document.querySelector("#btnContact");
 const dialogContact = document.querySelector("#dialogContact");
 const dialogContactWPPBtn = document.querySelector("#dialogContactWPPBtn");
 const btnCloseContactDialog = document.querySelector("#btnCloseContactDialog");
 
-
 btnContact.addEventListener("click", () => {
   showDialog(dialogContact);
 });
 
 dialogContactWPPBtn.addEventListener("click", () => {
-  return Redirect("https://w.app/creattek");
+  return toRedirect("https://w.app/creattek");
 });
 
 btnCloseContactDialog.addEventListener("click", () => {
   return closeDialog(dialogContact);
 });
-
 
 function showDialog(dialogID) {
   return dialogID.showModal();
