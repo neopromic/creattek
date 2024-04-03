@@ -31,15 +31,3 @@ function showDialog(dialogID) {
 function closeDialog(dialogID) {
   return dialogID.close();
 }
-
-const newOrder = (orderId, orderName) => ({
-  orderId, 
-  orderName
-});
-
-const order = newOrder("test123", "testOrder")
-
-const el = document.createElement("p", {});
-el.textContent = order.orderName;
-
-document.appendChild(el);
