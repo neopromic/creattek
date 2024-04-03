@@ -1,44 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>creattek | Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <script type="text/javascript" src="./assets/js/index.js" defer=""></script>
-    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/index.css" />
   </head>
 
   <body class="bg-zinc-900 text-zinc-50">
-    <header class="border-b-2 border-b-zinc-800 bg-zinc-900 backdrop-blur bg-opacity-80 sticky inset-0 z-50">
+    <header
+      class="border-b-2 border-b-zinc-800 bg-zinc-900 backdrop-blur bg-opacity-80 sticky inset-0 z-50"
+    >
       <nav class="px-6 py-2 flex gap-4 items-center select-none">
         <p class="hex1"></p>
-        <h1 class=" cursor-pointer flex-1">creattek</h1>
+        <h1 class="cursor-pointer flex-1">creattek</h1>
         <div class="flex">
           <ul>
-            <li class="underline underline-offset-4 hover:text-violet-400 hover:underline-offset-1 transition-all">
-              Serviços</li>
+            <li
+              class="underline underline-offset-4 hover:text-violet-400 hover:underline-offset-1 transition-all"
+            >
+              Serviços
+            </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <main class="px-6 py-2  selection:bg-violet-500 selection:text-violet-50">
+    <main class="px-6 py-2 selection:bg-violet-500 selection:text-violet-50">
       <section class="px-2 space-y-4">
-        <div class="bg-zinc-50 mt-2 w-fit rounded-xl text-zinc-900 px-4 py-1 select-none flex gap-2 items-center hover:bg-zinc-50/80 transition-all">
+        <div
+          class="bg-zinc-50 mt-2 w-fit rounded-xl text-zinc-900 px-4 py-1 select-none flex gap-2 items-center hover:bg-zinc-50/80 transition-all"
+        >
           <p class="text-sm">🚀</p>
-          <p class="text-sm">
-            Atualmente com desconto
-          </p>
+          <p class="text-sm">Atualmente com desconto</p>
         </div>
         <p></p>
-        <h1 class="text-4xl lg:text-5xl mt-4  max-w-md leading-tight">Conheça nossas ofertas e serviços.
+        <h1 class="text-4xl lg:text-5xl mt-4 max-w-md leading-tight">
+          Conheça nossas ofertas e serviços.
         </h1>
-        <p class="text-zinc-400">Nossa equipe dedicada está comprometida em oferecer soluções acessíveis e eficientes para todos os seus requisitos, garantindo uma experiência excepcional em cada interação.</p>
-        <button id="btnContact" class="bg-zinc-50 hover:bg-zinc-50/80 rounded-md text-zinc-900 px-4 py-2 flex gap-2 items-center transition-all">
+        <p class="text-zinc-400">
+          Nossa equipe dedicada está comprometida em oferecer soluções
+          acessíveis e eficientes para todos os seus requisitos, garantindo uma
+          experiência excepcional em cada interação.
+        </p>
+        <button
+          id="btnContact"
+          class="bg-zinc-50 hover:bg-zinc-50/80 rounded-md text-zinc-900 px-4 py-2 flex gap-2 items-center transition-all"
+        >
           <i class="ph ph-info text-xl"></i>
           Contate-nos!
         </button>
@@ -49,26 +61,37 @@
           <div class="size-2 bg-violet-300 rounded-full"></div>
           <h2 class="font-medium">Veja nossos serviços.</h2>
         </div>
-        <div class="bg-zinc-800 h-32 w-md rounded-md border border-zinc-700 px-4 py-2">
-
-        </div>
+        <div
+          class="bg-zinc-800 h-32 w-md rounded-md border border-zinc-700 px-4 py-2"
+        ></div>
       </section>
     </main>
-    <dialog id="dialogContact" class="bg-zinc-800 border border-zinc-700 text-zinc-50 absolute inset-12 w-fit rounded-md px-4 py-4 space-y-2 ">
+    <dialog
+      id="dialogContact"
+      class="bg-zinc-800 border border-zinc-700 text-zinc-50 absolute inset-12 w-fit rounded-md px-4 py-4 space-y-2"
+    >
       <div class="flex gap-2 items-center">
         <h1 class="text-xl flex-1">Escolha um meio de contato.</h1>
-        <i id="btnCloseContactDialog" class="ph ph-x rounded-md p-2 cursor-pointer border-2 border-zinc-700 hover:bg-zinc-700 transition-all"></i>
+        <i
+          id="btnCloseContactDialog"
+          class="ph ph-x rounded-md p-2 cursor-pointer border-2 border-zinc-700 hover:bg-zinc-700 transition-all"
+        ></i>
       </div>
-      <p class="text-zinc-400">Selecione um meio de contato para que possa entrar em contato com nossa equipe.</p>
-      <button class="inline-flex bg-zinc-50 hover:bg-zinc-50/80 text-zinc-900 rounded-md h-10 px-4 py-2 transition-all">
+      <p class="text-zinc-400">
+        Selecione um meio de contato para que possa entrar em contato com nossa
+        equipe.
+      </p>
+      <button
+        class="inline-flex bg-zinc-50 hover:bg-zinc-50/80 text-zinc-900 rounded-md h-10 px-4 py-2 transition-all"
+      >
         Instagram
       </button>
-      <button id="dialogContactWPPBtn" class="inline-flex bg-zinc-50 hover:bg-zinc-50/80 text-zinc-900 rounded-md h-10 px-4 py-2 transition-all">
+      <button
+        id="dialogContactWPPBtn"
+        class="inline-flex bg-zinc-50 hover:bg-zinc-50/80 text-zinc-900 rounded-md h-10 px-4 py-2 transition-all"
+      >
         WhatsApp
       </button>
     </dialog>
-
-
   </body>
-
 </html>
