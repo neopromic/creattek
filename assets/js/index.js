@@ -1,3 +1,5 @@
+import { toRedirect } from "./toRedirect.js";
+
 const btnContact = document.querySelector("#btnContact");
 const dialogContact = document.querySelector("#dialogContact");
 const dialogContactWPPBtn = document.querySelector("#dialogContactWPPBtn");
@@ -16,13 +18,6 @@ btnCloseContactDialog.addEventListener("click", () => {
   return closeDialog(dialogContact);
 });
 
-/*
- * Redirect function used globally in the application.
- * @params url String
- */
-function Redirect(url) {
-  return (window.location = url);
-}
 
 function showDialog(dialogID) {
   return dialogID.showModal();
