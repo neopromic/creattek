@@ -6,7 +6,7 @@ const dialogContactWPPBtn = document.querySelector("#dialogContactWPPBtn");
 const btnCloseContactDialog = document.querySelector("#btnCloseContactDialog");
 
 btnContact.addEventListener("click", () => {
-  showDialog(dialogContact);
+  return showDialog(dialogContact);
 });
 
 dialogContactWPPBtn.addEventListener("click", () => {
