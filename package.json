@@ -1,0 +1,11 @@
+{
+  "name": "creattek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/js/index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "neopromic",
+  "license": "ISC"
+}
