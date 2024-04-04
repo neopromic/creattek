@@ -4,7 +4,7 @@
   "description": "",
   "main": "assets/js/index.js",
   "scripts": {
-    "build:tw-start": "tailwindcss -i ./assets/css/index.css -o ./assets/css/output.css --watch"
+    "tw-start": "tailwindcss -i ./assets/css/index.css -o ./assets/css/output.css --watch"
   },
   "keywords": [],
   "author": "neopromic",
