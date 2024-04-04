@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "assets/js/index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "neopromic",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
 }
