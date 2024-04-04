@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "assets/js/index.js",
-  "scripts": {},
+  "scripts": {
+    "build:tw-start": "tailwindcss -i ./assets/css/index.css -o ./assets/css/output.css --watch"
+  },
   "keywords": [],
   "author": "neopromic",
   "license": "ISC",
