@@ -4,9 +4,11 @@ const btnContact = document.querySelector("#btnContact");
 const dialogContact = document.querySelector("#dialogContact");
 const dialogContactWPPBtn = document.querySelector("#dialogContactWPPBtn");
 const btnCloseContactDialog = document.querySelector("#btnCloseContactDialog");
+const testEl = document.querySelector("#testel");
+
 
 btnContact.addEventListener("click", () => {
-  return showDialog(dialogContact);
+ showDialog(dialogContact);
 });
 
 dialogContactWPPBtn.addEventListener("click", () => {
@@ -24,3 +26,5 @@ function showDialog(dialogID) {
 function closeDialog(dialogID) {
   return dialogID.close();
 }
+
+testEl.textContent = "Test";
