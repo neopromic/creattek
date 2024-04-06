@@ -15,7 +15,7 @@ jobs:
           npm install
       - name: Running build
         run:
-          npm tailwindcss -i ./assets/css/index.css -o ./assets/css/output.css --watch
+          npm start tailwindcss -i ./assets/css/index.css -o ./assets/css/output.css --watch
       - name:
         run: 
           echo "Sucessfully passed tests."
