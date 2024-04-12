@@ -2,10 +2,11 @@
   "name": "creattek",
   "version": "1.0.0",
   "description": "",
-  "main": "./index.js",
+  "main": "index.js",
   "scripts": {
     "tw-start": "tailwindcss -i ./assets/css/index.css -o ./assets/css/output.css --watch"
   },
+  "type": "module",
   "keywords": [],
   "author": "neopromic",
   "license": "ISC",
